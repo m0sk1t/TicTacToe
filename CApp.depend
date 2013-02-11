@@ -1,0 +1,39 @@
+# depslib dependency file v1.0
+1359250221 source:/home/m0sk1t/Документы/Work/SDL/CApp/CApp_OnCleanup.cpp
+	"CApp.h"
+
+1359317298 /home/m0sk1t/Документы/Work/SDL/CApp/CApp.h
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	"CEvent.h"
+	"CSurface.h"
+
+1359317283 source:/home/m0sk1t/Документы/Work/SDL/CApp/CApp_OnEvent.cpp
+	"CApp.h"
+
+1359252454 source:/home/m0sk1t/Документы/Work/SDL/CApp/CApp_OnInit.cpp
+	"CApp.h"
+
+1358282246 source:/home/m0sk1t/Документы/Work/SDL/CApp/CApp_OnLoop.cpp
+	"CApp.h"
+
+1359253033 source:/home/m0sk1t/Документы/Work/SDL/CApp/CApp_OnRender.cpp
+	"CApp.h"
+
+1359252873 source:/home/m0sk1t/Документы/Work/SDL/CApp/main.cpp
+	"CApp.h"
+
+1359252481 /home/m0sk1t/Документы/Work/SDL/CApp/CSurface.h
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+
+1359252454 source:/home/m0sk1t/Документы/Work/SDL/CApp/CSurface.cpp
+	"CSurface.h"
+
+1359316105 /home/m0sk1t/Документы/Work/SDL/CApp/CEvent.h
+	<SDL/SDL.h>
+
+1359364249 source:/home/m0sk1t/Документы/Work/SDL/CApp/CEvent.cpp
+	<iostream>
+	"CEvent.h"
+
