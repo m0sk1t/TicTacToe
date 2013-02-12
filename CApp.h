@@ -13,7 +13,23 @@ class CApp : public CEvent {
 
         SDL_Surface*    Surf_Display;
 
-        SDL_Surface*    Surf_Test;
+    private:
+        SDL_Surface*    Surf_Grid;
+
+        SDL_Surface*    Surf_X_O;
+
+        SDL_Rect        Cross,Nulls;
+
+    private:
+        int        Grid[9];
+
+        int  CurrentPlayer;
+
+        enum {
+            GRID_TYPE_NONE = 0,
+            GRID_TYPE_X,
+            GRID_TYPE_O
+        };
 
     public:
         CApp();
@@ -25,13 +41,20 @@ class CApp : public CEvent {
 
         void OnEvent(SDL_Event* Event);
 
-        void OnExit();
+        void OnLButtonDown(int mX, int mY);
+
+                void OnExit();
 
         void OnLoop();
 
         void OnRender();
 
         void OnCleanup();
+
+    public:
+        void SetCell(int ID, int Type);
+
+        void Reset();
 };
 
 #endif

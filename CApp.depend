@@ -37,3 +37,41 @@
 	<iostream>
 	"CEvent.h"
 
+1360685167 source:/home/m0sk1t/Документы/Work/SDL/TicTacToe/CApp_OnCleanup.cpp
+	"CApp.h"
+
+1360689269 /home/m0sk1t/Документы/Work/SDL/TicTacToe/CApp.h
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	"CEvent.h"
+	"CSurface.h"
+
+1359316105 /home/m0sk1t/Документы/Work/SDL/TicTacToe/CEvent.h
+	<SDL/SDL.h>
+
+1360691454 /home/m0sk1t/Документы/Work/SDL/TicTacToe/CSurface.h
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+
+1360688261 source:/home/m0sk1t/Документы/Work/SDL/TicTacToe/CApp_OnEvent.cpp
+	"CApp.h"
+
+1360686516 source:/home/m0sk1t/Документы/Work/SDL/TicTacToe/CApp_OnInit.cpp
+	"CApp.h"
+
+1358282246 source:/home/m0sk1t/Документы/Work/SDL/TicTacToe/CApp_OnLoop.cpp
+	"CApp.h"
+
+1359364249 source:/home/m0sk1t/Документы/Work/SDL/TicTacToe/CEvent.cpp
+	<iostream>
+	"CEvent.h"
+
+1360691685 source:/home/m0sk1t/Документы/Work/SDL/TicTacToe/CSurface.cpp
+	"CSurface.h"
+
+1360686702 source:/home/m0sk1t/Документы/Work/SDL/TicTacToe/main.cpp
+	"CApp.h"
+
+1360691428 source:/home/m0sk1t/Документы/Work/SDL/TicTacToe/CApp_OnRender.cpp
+	"CApp.h"
+

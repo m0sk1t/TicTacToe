@@ -1,7 +1,9 @@
 #include "CApp.h"
 using namespace std;
 CApp::CApp() {
-    Surf_Test = NULL;
+    CurrentPlayer = 0;
+    Surf_Grid = NULL;
+    Surf_X_O = NULL;
     Surf_Display = NULL;
 
     Running = true;
@@ -26,6 +28,19 @@ int CApp::OnExecute() {
     OnCleanup();
 
     return 0;
+}
+
+void CApp::Reset() {
+    for(int i = 0;i < 9;i++) {
+        Grid[i] = GRID_TYPE_NONE;
+    }
+}
+
+void CApp::SetCell(int ID, int Type) {
+    if(ID < 0 || ID >= 9) return;
+    if(Type < 0 || Type > GRID_TYPE_O) return;
+
+    Grid[ID] = Type;
 }
 
 int main(int argc, char* argv[]) {
